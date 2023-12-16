@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             OOP1Theme {
                 // A surface container using the 'background' color from the theme
-                Surface(modifier = Modifier.fillMaxSize(), color = Color.Black) {
+                Surface(modifier = Modifier.fillMaxSize(), color = Color.Magenta) {
                     Column(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier, fontSize:Double ) {
     Text(
         color = Color.White,
-        text = "$name",
+        text = "$name ",
         modifier = modifier,
         fontSize = fontSize.sp,
     )
