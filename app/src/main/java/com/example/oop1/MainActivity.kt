@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             OOP1Theme {
                 // A surface container using the 'background' color from the theme
-                Surface(modifier = Modifier.fillMaxSize(), color = Color.Magenta) {
+                Surface(modifier = Modifier.fillMaxSize(), color = Color.Cyan) {
                     Column(
                         modifier = Modifier
                             .fillMaxWidth()
